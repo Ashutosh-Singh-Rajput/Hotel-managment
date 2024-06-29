@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinning-The-Hotel-King</title>
+    <link rel="icon" href="https://www.the-island-house.com/wp-content/uploads/2021/03/tih-header-logo.png.webp">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    
+</head>
+<style>
+  
+.slider{
+   width: 90%;
+   height: 470px;
+   position: absolute;
+   margin-left: 6px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   background-image: url("/RESTAURANT/IMAGE/dinning/dinning1.jpg");
+   background-size: 100% 100%;
+   padding-top: 40px;
+   box-shadow: 1px 2px 9px 4px rgb(168, 212, 230);
+   animation: slider 70s infinite ease-in-out;
+   transition: transform 15s ease-in-out;
+
+}
+@keyframes slider{
+    0%{ 
+        background-image:url("/RESTAURANT/IMAGE/dinning/dinning1.jpg"); 
+    }
+    16%{
+        background-image: url("/RESTAURANT/IMAGE/dinning/dinning2.webp");
+    }
+    32%{ 
+        background-image: url("/RESTAURANT/IMAGE/dinning/dinning3.webp");
+    }
+    48%{ background-image: url("/RESTAURANT/IMAGE/dinning/dinning4.webp");
+    }
+    64%{
+        background-image: url("/RESTAURANT/IMAGE/dinning/dinning5.webp");
+    }
+    80%{
+        background-image: url("/RESTAURANT/IMAGE/dinning/dinning6.jpg");
+    }
+    100%{
+        background-image: url("/RESTAURANT/IMAGE/dinning/dinning1.jpg");
+
+    }
+} 
+
+@media only screen and (min-width: 300px) and (max-width:500px){
+    body{
+        background-color: red;
+    }
+}
+
+
+
+</style>
+<body> 
+    <div class="container">
+    <div class=" logo flex justify-center h-14">
+        <img src="https://www.the-island-house.com/wp-content/uploads/2021/03/tih-header-logo.png.webp" alt="the-hotel-king.com">
+    </div>
+    <nav class=" flex justify-center items-center m-auto  min-h-20 bg-white w-5/6 "  id="navbar">
+       <ul class="flex ">
+        <li class="ACCOMMODATIONS cursor-pointer px-8 text-lg font-normal"><a href="#ACCOMMODATIONS">ACCOMMODATIONS</a></li>
+        <li class="DINING         cursor-pointer px-8 text-lg font-normal"><a href="#DINING">DINING</a></li>
+        <li class="WELLNESS       cursor-pointer px-8 text-lg font-normal"><a href="#WELLNESS">WELLNESS</a></li>
+        <li class="ACTIVITIES     cursor-pointer px-8 text-lg font-normal"><a href="#ACTIVITIES">ACTIVITIES</a></li>
+        <li class="CINEMA         cursor-pointer px-8 text-lg font-normal"><a href="#CINEMA">CINEMA</a></li>
+        <li class="EVENTS         cursor-pointer px-8 text-lg font-normal"><a href="#EVENTS">EVENTS</a></li>
+        <li class="CONTACT        cursor-pointer px-8 text-lg font-normal"><a href="#CONTACT">CONTACT</a></li>
+       </ul>
+    </nav>
+</div>
+
+<div class="Menu_Container w-5/6 m-auto  px-6 py-6 bg-yellow-400 text-black">
+    <ul class="flex justify-center">
+        <li class="px-6 cursor-pointer font-medium"><a href="/RESTAURANT/Order_Online.html" class="no-underline  hover:bg-yellow-300">ORDER ONLINE</a></li>
+        <li class="px-6 cursor-pointer font-medium"><a href="/RESTAURANT/Shima.html" class="no-underline  hover:bg-yellow-300">SHIMA</a></li>
+
+        <li class="px-6 cursor-pointer font-medium"><a href="/RESTAURANT/Yellowbell.html" class="no-underline  hover:bg-yellow-300 ">YELLOWBELL</a></li>
+
+        <li class="px-6 cursor-pointer font-medium"><a href="/RESTAURANT/Mogano.html" class="no-underline  hover:bg-yellow-300">MOGANO BY GIORGIO LOCATELLI</a></li>
+
+        <li class="px-6 cursor-pointer font-medium"><a href="/RESTAURANT/Wines.html" class="no-underline  hover:bg-yellow-300">WINES</a></li>
+    </ul>
+</div>
+    <section class="start_section" >
+        <span class=" flex justify-center text-4xl italic mt-14">DINNING</span>
+        <div class="container flex   h-screen  w-full m-auto mt-14  bg-no-repeat bg-cover box-border relative overflow-hidden" style=" background-image: url('/RESTAURANT/IMAGE/bhhh1.avif')">
+            <div class="slider"></div></div>
+    </section>
+    
+    <div class=" flex justify-center text-6xl mt-10"> 
+        <h4>Dinning</h4> </div>
+        <p class="flex justify-center tracking-tight my-6 text-xl">The Hotel King offers a range of eclectic choices for dining throughout the day…</p>
+
+    <section class="Second_Section container flex   h-96  w-full bg-white m-auto">
+        <img class="w-4/5 h-full" src="/RESTAURANT/IMAGE/dinning/food1.webp" alt="">
+        <div>
+            <h2 class="flex mx-24 my-8 text-5xl tracking-wider text-yellow-300 font-light">SHIMA</h2>
+            <h3  class="flex mx-24 my-4">SOUTHEAST ASIAN</h3>
+            <h4 class="flex ml-24">Shima is located on the top floor of The Island House. Sophisticated and relaxed open-air dining featuring the fresh, vibrant flavors of Southeast Asian cuisine.</h4>
+           <a href="/RESTAURANT/Shima.html"> <button class="mx-24 my-12  border-2 border-amber-400  bg-white py-2 px-5 text-yellow-400 text-base hover:bg-yellow-400 hover:text-white"> VIEW SHIMA</button></a>
+        </div>
+    </section>
+
+    <section class="Third_Section container flex   bg-white m-auto my-20">
+        <div>
+            <h2 class="flex my-8 text-5xl tracking-wider text-yellow-300 font-light">WINES</h2>
+            <h3  class="flex  my-4">WORLD RENOWN WINES</h3>
+            <h4 class="flex mr-8 ">The Hotel King is renown for its vast selection of revered wines. Not only does each restaurant have an extensive collection hand-picked to pair with the unique culinary dishes they serve, but The Market is open 7 days-a-week, providing a space where wine can be tasted and purchased..</h4>
+            <a href=""><button class=" my-12  border-2 border-amber-400  bg-white py-2 px-5 text-yellow-400 text-base hover:bg-yellow-400 hover:text-white" onclick="">VIEW WINES</button></a>
+        </div>
+        <div class=" h-96  w-dvw">
+        <img class=" w-full h-full" src="/RESTAURANT/IMAGE/dinning/wine2.jpg" alt="">
+    </div>
+    </section>
+
+
+        <section class="Forth_Section container flex   h-96  w-full bg-white m-auto">
+            <img class="w-4/5 h-full" src="/RESTAURANT/IMAGE/dinning/food2.jpg" alt="">
+            <div>
+                <h2 class="flex mx-24 my-8 text-5xl tracking-wider text-yellow-300 font-light">MOGANO BY GIORGIO LOCATELLI</h2>
+                <h3  class="flex mx-24 my-4">ITALIAN</h3>
+                <h4 class="flex ml-24">Mogano by Giorgio Locatelli brings the best of Italian cuisine to life in The Bahamas, with a range of exquisite pasta dishes and seasonal mains, as well as a distinctive wine list.</h4>
+                <a href=""><button class="mx-24 my-12  border-2 border-amber-400  bg-white py-2 px-5 text-yellow-400 text-base hover:bg-yellow-400 hover:text-white">VIEW MOGANO</button></a>
+            </div>
+        </section>
+
+        
+    <section class="Fifth_Section container flex  bg-white m-auto my-20">
+        <div>
+            <h2 class="flex my-8 text-5xl tracking-wider text-yellow-300 font-light">YELLOWBELL 
+            </h2>
+            <h3  class="flex  my-4">CRAFT COCKTAIL BAR  I BREAKFAST & LUNCH  I COFFEE</h3>
+            <h4 class="flex mr-4 ">Discover an extensive selection of all-new bespoke cocktails, as well as a beautifully curated bar bites menu from Chef Dave of Shima. In partnership with Bon Vivants.</h4>
+            <a href="/RESTAURANT/Yellowbell.html"><button class=" my-12  border-2 border-amber-400  bg-white py-2 px-5 text-yellow-400 text-base hover:bg-yellow-400 hover:text-white">VIEW YELLOWBELL</button></a>
+        </div>
+        <div class=" h-96  w-full">
+        <img class=" w-4/5 h-full ml-32" src="/RESTAURANT/IMAGE/dinning/food3.jpg" alt="">
+    </div>
+    </section>
+    
+    <footer class="">
+        <div class="logo_container h-48 w-full ">
+        <img class=" mt-5 m-auto h-32 w-32" src="/RESTAURANT/IMAGE/THE HOTTLE KING.png" alt="">
+    </div>
+  <div class="">
+        <ul class="flex justify-center">
+            <li class="h-8 w-8 mx-3">
+                <a href="https://www.facebook.com/" target="_blank">
+                  <img class="cursor-pointer" src="/RESTAURANT/IMAGE/flogo.png" alt="Facebook Logo">
+                </a>
+            </li>
+
+            <li class="h-8 w-8 mx-3">
+                <a href="https://www.instagram.com/" target="_blank">
+                  <img class="cursor-pointer" src="/RESTAURANT/IMAGE/ilogo.png" alt="Instagram Logo">
+                </a>
+            </li>
+              
+            <li class="h-8 w-8 mx-3">
+                <a href="https://x.com/" target="_blank">
+                  <img class="cursor-pointer" src="/RESTAURANT/IMAGE/tlolgo.png" alt="Twitter X Logo">
+                </a>
+            </li>
+
+            <li class="h-8 w-8 mx-3">
+                <a href="https://in.pinterest.com/login/" target="_blank">
+                  <img class="cursor-pointer" src="/RESTAURANT/IMAGE/plogo.png" alt="Pinterest Logo">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <h4 class="flex text-center justify-center mt-7 tracking-wide">SIGN UP FOR OUR NEWSLETTER</h4>
+    </div>
+    <div class=" flex  justify-center mt-10 ">
+        <input style="background-color: #d5e843;" class=" w-96 h-10 pl-20 text-black tracking-wider " type="email" name="EMAIL" id="" placeholder="Enter your email address">
+    </div>
+
+    <div class="submit flex justify-center mt-3">
+        <input class=" tracking-wider cursor-pointer " type="submit" value="SUBMIT" onclick="">
+    </div>
+    
+    
+    <div class="flex justify-center  mt-8">
+        <h6 class="text-black tracking-wider">INFO@The_Hotel_King.com</h6>
+    </div>
+
+    <div class="flex justify-center  mt-2">
+        <h6 class="text-black tracking-wider">1-242-698-6300</h6>
+    </div>
+    <div class="flex justify-center mt-10">
+        <h6 class="text-black tracking-wider">MAHOGANY HILL WESTERN ROAD</h6>
+    </div>
+    <div class="flex justify-center mt-1">
+        <h6 class="text-black tracking-wider">PO BOX N-7776-78</h6>
+    </div>
+    <div class="flex justify-center mt-1">
+        <h6 class="text-black tracking-wider">NASSAU, THE BAHAMAS</h6>
+    </div>
+    
+    <div class="flex justify-center mt-7">
+        <a class="active:text-gray-200 mx-4" href="/RESTAURANT/INDEX.html" >TERMS & CONDITIONS</a>
+        <a class="active:text-gray-200 mx-4" href="/RESTAURANT/INDEX.html" >PRIVACY POLICY </a>
+    </div>
+    
+    <div class="flex justify-center mt-7">
+        <h6 class="text-black tracking-wider text-sm">© 2024 The Island House. All Rights Reserved.</h6>
+    </div>
+     
+    <div class="flex justify-center mt-12">
+       <img class=" h-12" src="/RESTAURANT/IMAGE/visa.webp" alt="">
+    </div>
+    <div class="flex justify-center mt-6 mb-20">
+      <img class=" w-36 h-8 cursor-pointer" src="/RESTAURANT/IMAGE/visa2.gif" alt="">
+     </div>
+</footer>
+</body>
+</html>
